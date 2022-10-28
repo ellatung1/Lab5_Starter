@@ -8,11 +8,22 @@ function init() {
   let carHorn = document.getElementById("horn-select").selectedOptions[2].value;
   let partyHorn = document.getElementById("horn-select").selectedOptions[3].value;
   
+}
+  
   airHorn.addEventListener(‘click’, changePicture() {
 
-     document.getElementById("img").src=a;
-     document.querySelector('img[src=""]');
+     document.querySelector('img[alt="No image selected"]') = img.src.replace("assets/images/air-horn.svg")
   
   })
   
-}
+  carHorn.addEventListener(‘click’, changePicture() {
+
+     document.querySelector('img[alt="No image selected"]') = img.src.replace("assets/images/car-horn.svg")
+  
+  })
+  
+  partyHorn.addEventListener(‘click’, changePicture() {
+
+     document.querySelector('img[alt="No image selected"]') = img.src.replace("assets/images/party-horn.svg")
+  
+  })
