@@ -17,21 +17,21 @@ function init() {
      document.querySelector('img[alt="No image selected"]') = img.src.replace("assets/images/air-horn.svg");
      audio.src.replace("assets/audio/air-horn.mp3);
   
-  })
+  });
   
   carHorn.addEventListener(‘click’, changePictureCarHorn() {
 
      document.querySelector('img[alt="No image selected"]') = img.src.replace("assets/images/car-horn.svg");
      audio.src.replace("assets/audio/car-horn.mp3);
   
-  })
+  });
   
   partyHorn.addEventListener(‘click’, changePicturePartyHorn() {
 
      document.querySelector('img[alt="No image selected"]') = img.src.replace("assets/images/party-horn.svg");
      audio.src.replace("assets/audio/party-horn.mp3);
   
-  })
+  });
     
   range.addEventListener('input', changeIcon() {
                          
@@ -40,10 +40,10 @@ function init() {
      else if (33 <= range.value < 67) document.querySelector('img[alt="Volume level 2"]') = img.src.replace.("assets/icons/volume-level-2.svg");
      else if (67 <= range.value) document.querySelector('img[alt="Volume level 2"]') = img.src.replace.("assets/icons/volume-level-3.svg");  
     
-  })
+  });
   
   range.addEventListener('input', changeVolume() {
                          
      audio.volume = (range.value)/100;
                          
-  })
+  });
